@@ -1,0 +1,235 @@
+<!DODTYPE HTML>
+<html>
+  <style>
+  body{
+      background-color: #efefef;
+      font-size: 14px;
+      color: #333;
+      margin: 0;
+    }
+  
+  header{
+      margin-top: 20px;
+    }
+    
+     .container{
+      width:920px;
+      margin: 0 auto 40px auto;
+    }
+
+.header-title-area{
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+.logo{
+ 　　 font-size: 42px;
+　　}　
+　　
+.header-sub{
+  background-color: gray;
+}
+
+ .header-navigation{
+      width: 100%;
+      background-color: #fff;
+      padding: 20px 0;
+      background-color: black;
+    }
+    
+ .header-navigation:after{
+      clear: both;
+      display: block;
+      content: " ";
+    }
+    
+  .header-navigation li{
+      float: left;
+      padding: 0 30px;
+      text-align: center;
+      list-style-type: none;
+    }
+    
+  .header-navigation li a{
+      color: white;
+      text-decoration: none;
+    }
+    
+  .container{
+   display: block;
+  }
+  
+  .card-contents{
+      padding: 30px;
+      margin-bottom: 20px;
+      float: left;
+      width:150px;
+      height: 150px;
+    }
+    
+    
+  .card-contents a{
+   font-size: 16px;
+   padding: 20px 0;
+  }
+    
+  .staff-image{
+      margin-top: 10px;
+      width:150px;
+      height: 150px;
+  }
+  
+  .texts{
+   padding-top: 25px;
+   padding-bottom:35px;
+   padding-right: 20px;
+  }
+    
+  .left-contents{
+     width: 600px;
+     margin: 20px 0;
+     margin-right: 20px;
+     background-color: #fff;
+     float: left;
+     position: relative;
+    }
+   
+  
+  .text-main{
+   margin-left: 20px;
+   padding-right: 100px;
+   float: left;
+   position: absolute;
+   left: 1360px;
+   top: 190px;
+  }
+    
+  .text-title{
+   border-bottom: solid 1px #999999;
+   font-size: 18px;
+  }
+    
+  .right-contents{
+      width: 280px;
+      float: left;
+      background-color: #fff;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+  h1,h2,h3,h4,h5{
+      margin: 0 0 10px 0;
+      padding: 0;
+    }
+    
+ .main:after {
+  clear: both;
+  display: block;
+  content: " ";
+    }
+    
+  footer{
+   border-top: solid 1px #999999;
+   margin-top: 40px;
+  }
+    
+  .copyright{
+      color: #777;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    
+  </style>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>SAMPLE　BLOG</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+    <div class="container">
+     <div class="header-title-area">
+       <h1 class="logo">SAMPLE BLOG</h1>
+     </div>
+     <div class="header-sub">
+       <ul class="header-navigation">
+         <li><a href="#">ホーム</a></li>
+         <li><a href="#">カテゴリー一覧</a></li>
+         <li><a href="#">お問い合わせ</a></li>
+       </ul>
+     </div>
+    </div>
+  </header>
+  <div class="main">
+   <div class="container">
+    <div class="left-contents">
+     <div class="card-contents">
+      <img src="./staff_01.jpg" class="staff-image">
+      </div>
+      <div class="texts">
+      <p>2020.12.20</p>
+      <a href="#">HTMLとCSSでサイトを作成していく</a>
+      <p>HTMLとCSSの基礎を抑えたところで、今回はよく目にするレイアウトを実際にコードを書きながら解説していきます。はじめて目にするコードや知識は多いと思いますが、1つ1つ調べ、しっかりと理解を深めていきましょう。</p>
+    </div>
+    </div>
+    
+    <div class="text-main">
+    <h2 class="text-title">関連記事</h2>
+    </div>
+    <div class="right-contents">
+       <div class="card-contents">
+        <p>2020.12.01</p>
+        <a href="#">HTMLの基本的な構造やタグの使い方を理解する</a>
+          <p>今回は実際に、Webサイトを作成しよう</p>
+         </div>
+       </div>
+   
+    <div class="left-contents">
+     <div class="card-contents">
+      <img src="./staff_01.jpg" class="staff-image">
+      </div>
+      <div class="texts">
+      <p>2020.12.20</p>
+      <a href="#">プログラミングに対するマインドを整えよう</a>
+      <p>実際のエンジニアの業務の多くは、調べている時間です. プログラミングをしていると、必ずエラーという壁にぶつかります。そのエラーの解決方法を調べたり、ある機能の実装方法を調べることに時間を費やします。</p>
+    </div>
+    </div>
+    
+     <div class="right-contents">
+       <div class="card-contents">
+        <p>2020.12.01</p>
+        <a href="#">開発環境を構築する - Cloud9基礎</a>
+          <p>この章では、環境構築をおこないます。</p>
+         </div>
+       </div>
+   
+    <div class="left-contents">
+     <div class="card-contents">
+      <img src="./staff_01.jpg" class="staff-image">
+      </div>
+      <div class="texts">
+      <p>2020.12.20</p>
+      <a href="#">Gitについて知る</a>
+      <p>プログラミングしていると、ファイルを過去の状態に戻したいことがあります。チームで共有しているファイルの場合、複数の人が同時に編集した場合、どちらの編集を優先すれば良いのかわからなくなってしまったりします。</p>
+   </div>
+   </div>
+  </div>
+  
+   <div class="right-contents">
+       <div class="card-contents">
+        <p>2020.12.01</p>
+        <a href="#">基礎的なLinuxコマンドを知ろう</a>
+          <p>基礎的なLinuxコマンドを扱えるようになる</p>
+         </div>
+       </div>
+   </div>
+  </div>
+  
+  <footer>
+    <p class="copyright">(C) 2017 Batty's Coffee Stand.</p>
+  </footer>
+  </body>
